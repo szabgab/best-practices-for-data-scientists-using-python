@@ -38,7 +38,10 @@
 * Do they use virtualenv or some other tool to separate environments?
 
 
-## Object Or
+## Object Oriented vs Functional programming
+
+* lazy evaluation
+* working with long, possibly infinite series of numbers
 
 
 ### Code review
