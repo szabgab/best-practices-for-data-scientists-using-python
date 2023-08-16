@@ -18,7 +18,7 @@
 * Are people writing Jupyer notebooks only or are they writing libraries as well?
 * Which libraries do they use besides numpy and pandas?
 * How many years of experience writing Python code do they have?
-
+* Who initiated the idea of this course? The people who will participate? Their manager? What is the main problem they face?
 
 
 ## Notes
