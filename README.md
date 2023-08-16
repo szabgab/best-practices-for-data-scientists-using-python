@@ -59,6 +59,8 @@
     * https://pypi.org/project/editdistpy/
 * Parallel programming (multiprocess)
 * Caching
+* Using the memory instead of the disk.
+
 
 * [Scipy Optimizing code](https://scipy-lectures.org/advanced/optimizing/)
 
