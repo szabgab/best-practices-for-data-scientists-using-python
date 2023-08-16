@@ -50,6 +50,7 @@
 ## Performance
 
 * Profiling
+    * py-spy
 * Benchmarking
 * Rewrite computation heavy parts in C, C++, or Rust.
 
