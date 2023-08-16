@@ -31,3 +31,11 @@
 * Do they use virtualenv or some other tool to separate environments?
 
 
+### Code review
+
+* It is really difficult, in most places I saw the code-reviews were not that useful
+For small, almost trivial changes the need for code-review hindred the progress. (because the system required code-review for every change even typo fixes had to go through the process and when the people who were supposed to do the code-review were at lunch the others could not make progress)
+For big changes, the reviewer it is usually quite difficult to understand the main issues of the code. So people tend to comment on trivial issues.
+
+A better approach might be pair-programming.
+
