@@ -22,6 +22,8 @@
 
 * Code layout - black
 * Linters: flake, pylint?
+* Testing: verify the results of simple computations.
+
 
 * Which libraries do they use besided numpy and pandas?
 * Do they have requirements.txt file or other way to specify the list of libraries they use?
