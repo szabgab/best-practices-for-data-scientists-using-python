@@ -37,6 +37,11 @@
 * Do they have requirements.txt file or other way to specify the list of libraries they use?
 * Do they use virtualenv or some other tool to separate environments?
 
+## Clean code
+
+* meaningful variable names
+* short functions that do only one thing
+* refactoring
 
 ## Object Oriented vs Functional programming
 
