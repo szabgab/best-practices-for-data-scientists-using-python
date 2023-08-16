@@ -2,7 +2,7 @@
 
 ## Background
 
-* All the participants are Data Science people with Msc or Phd
+* All the participants are Data Science people with Msc or Phd.
 * Principles of correct and performant coding.
 * Design Patterns.
 * Clean code.
@@ -47,6 +47,8 @@
 
 ## Performance
 
+* Profiling
+* Benchmarking
 * Rewrite computation heavy parts in C, C++, or Rust.
 
 
