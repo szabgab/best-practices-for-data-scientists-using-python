@@ -60,7 +60,7 @@
 * Parallel programming (multiprocess)
 * Caching
 * Using the memory instead of the disk.
-
+* [Time complexity](https://en.wikipedia.org/wiki/Time_complexity) of the algorithm used.
 
 * [Scipy Optimizing code](https://scipy-lectures.org/advanced/optimizing/)
 
