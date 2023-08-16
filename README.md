@@ -53,6 +53,10 @@
     * py-spy
 * Benchmarking
 * Rewrite computation heavy parts in C, C++, or Rust.
+* Levenshtein disatance
+    * https://pypi.org/project/python-Levenshtein/
+    * https://pypi.org/project/Levenshtein/
+    * https://pypi.org/project/editdistpy/
 
 * [Scipy Optimizing code](https://scipy-lectures.org/advanced/optimizing/)
 
