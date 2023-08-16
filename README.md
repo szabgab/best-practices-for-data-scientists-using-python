@@ -23,7 +23,8 @@
 * Code layout - black
 * Linters: flake, pylint?
 * Testing: verify the results of simple computations.
-
+* Fixing the seed
+* Checking that the results of computations (predictions) don't get worse, are within certain metrics.
 
 * Which libraries do they use besided numpy and pandas?
 * Do they have requirements.txt file or other way to specify the list of libraries they use?
