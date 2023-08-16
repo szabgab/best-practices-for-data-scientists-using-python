@@ -20,7 +20,6 @@
 
 ## Notes
 
-
 * Are the people using git or some other version control system? How familiar are they with it?
 * Are people writing Jupyer notebooks only or are they writing libraries as well?
 * What is considered "production" for them?
