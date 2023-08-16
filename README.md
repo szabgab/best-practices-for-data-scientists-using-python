@@ -57,6 +57,8 @@
     * https://pypi.org/project/python-Levenshtein/
     * https://pypi.org/project/Levenshtein/
     * https://pypi.org/project/editdistpy/
+* Parallel programming (multiprocess)
+* Caching
 
 * [Scipy Optimizing code](https://scipy-lectures.org/advanced/optimizing/)
 
