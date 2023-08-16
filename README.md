@@ -54,7 +54,7 @@
 * Benchmarking
 * Rewrite computation heavy parts in C, C++, or Rust.
 
-
+* [Scipy Optimizing code](https://scipy-lectures.org/advanced/optimizing/)
 
 ## Object Oriented vs Functional programming
 
