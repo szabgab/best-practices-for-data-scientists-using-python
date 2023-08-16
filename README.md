@@ -39,9 +39,17 @@
 
 ## Clean code
 
+* DRY
 * meaningful variable names
 * short functions that do only one thing
 * refactoring
+
+
+## Performance
+
+* Rewrite computation heavy parts in C, C++, or Rust.
+
+
 
 ## Object Oriented vs Functional programming
 
