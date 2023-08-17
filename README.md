@@ -76,6 +76,7 @@
 * Using dict instead of list.
 
 * [using numba](http://numba.pydata.org/)
+* [Nuitka](https://nuitka.net/) - the Python Compiler
 
 * [Scipy Optimizing code](https://scipy-lectures.org/advanced/optimizing/)
 
