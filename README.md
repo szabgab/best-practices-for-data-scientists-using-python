@@ -27,7 +27,7 @@
 * Linters: flake, pylint?
 * Checking that the results of computations (predictions) don't get worse, are within certain metrics.
 
-* Which libraries do they use besides numpy and pandas? - Scikit-learn, tensorflow, pytorch, huggingface.
+* Which libraries do they use besides numpy and pandas? - [Scikit-learn](https://scikit-learn.org/), [tensorflow](https://www.tensorflow.org/), [pytorch](https://pytorch.org/), [huggingface](https://huggingface.co/).
 * Do they have requirements.txt file or other way to specify the list of libraries they use?
 * Do they use virtualenv or some other tool to separate environments?
 
@@ -42,14 +42,21 @@
 * Testing: verify the results of the computations.
 * Verify the result of algorithms with random elements. Fixing the seed.
 
+## Version Control system
+
+* Small commits
+* Good commit messages
 
 
 ## Clean code
 
 * DRY
-* meaningful variable names
+* meaningful variable and function names
 * short functions that do only one thing
-* refactoring
+* As much as possible make the code in a way that includes the story instead of commenting.
+* Comment where necessary (explain why you made a certain decision in the code)
+* refactoring, that implies automated unit and integration testing
+* Remove old code (don't leave commented out old code around, you have version control if you need to fo back and look at it again)
 
 * Make people re-read their own code a few months after they wrote it and let them refactor it!
 * Frequently switch people between projects so they will need to read and understand each others code.
@@ -75,10 +82,26 @@
 * [Algorithmic Time complexity](https://en.wikipedia.org/wiki/Time_complexity) of the algorithm used.
 * Using dict instead of list.
 
+
 * [using numba](http://numba.pydata.org/)
 * [Nuitka](https://nuitka.net/) - the Python Compiler
-
 * [Scipy Optimizing code](https://scipy-lectures.org/advanced/optimizing/)
+
+### Scikit-Learn
+
+* [Scikit-Learn optimize for speed](https://scikit-learn.org/stable/developers/performance.html)
+
+### Tensorflow
+
+* [Optimize Tesnorflow performance using the Profiler](https://www.tensorflow.org/guide/profiler)
+* [Optimize TensorFlow GPU performance with the TensorFlow Profiler](https://www.tensorflow.org/guide/gpu_performance_analysis)
+* [Tensorflow performance best practices](https://www.tensorflow.org/lite/performance/best_practices)
+
+### PyTorch
+
+* [Profiling your PyTorch Module](https://pytorch.org/tutorials/beginner/profiler.html)
+* [torch.profiler](https://pytorch.org/docs/stable/profiler.html)
+
 
 ## Object Oriented vs Functional programming
 
