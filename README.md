@@ -56,7 +56,7 @@
 * As much as possible make the code in a way that includes the story instead of commenting.
 * Comment where necessary (explain why you made a certain decision in the code)
 * refactoring, that implies automated unit and integration testing
-* Remove old code (don't leave commented out old code around, you have version control if you need to fo back and look at it again)
+* Remove old code (don't leave commented out old code around, you have version control if you need to go back and look at it again)
 
 * Make people re-read their own code a few months after they wrote it and let them refactor it!
 * Frequently switch people between projects so they will need to read and understand each others code.
@@ -72,7 +72,7 @@
     * [py-spy](https://pypi.org/project/py-spy/)
 * Benchmarking
 * Rewrite computation heavy parts in C, C++, or Rust.
-* Levenshtein disatance
+* Levenshtein distance
     * https://pypi.org/project/python-Levenshtein/
     * https://pypi.org/project/Levenshtein/
     * https://pypi.org/project/editdistpy/
@@ -112,7 +112,7 @@
 ### Code review
 
 * It is really difficult, in most places I saw the code-reviews were not that useful
-For small, almost trivial changes the need for code-review hindred the progress. (because the system required code-review for every change even typo fixes had to go through the process and when the people who were supposed to do the code-review were at lunch the others could not make progress)
+For small, almost trivial changes the need for code-review hindered the progress. (because the system required code-review for every change even typo fixes had to go through the process and when the people who were supposed to do the code-review were at lunch the others could not make progress)
 For big changes, the reviewer it is usually quite difficult to understand the main issues of the code. So people tend to comment on trivial issues.
 
 A better approach might be pair-programming. Working together on the same computer at the same time.
@@ -120,7 +120,7 @@ A better approach might be pair-programming. Working together on the same comput
 ## Notes
 
 * Background not computer science
-* They might have done oop course and might use OOP but they might not know the architecture and the design patterns.
+* They might have done OOP course and might use OOP but they might not know the architecture and the design patterns.
 * Not always ideal about run time performance.
 
 1. Better design of software
@@ -139,7 +139,7 @@ A better approach might be pair-programming. Working together on the same comput
 
 ### Goal:
 
-* How to create better designed software that has better perfomance and it is easier to maintain?
+* How to create better designed software that has better performance and it is easier to maintain?
 
 ### Topics
 
@@ -166,12 +166,12 @@ A better approach might be pair-programming. Working together on the same comput
 * OOP design patterns (1-2 hours)
     * General concept of design patterns as a way to talk about designs
     * Singleton
-    * The overuse of inheritance. (A class to represent things with leggs.)
+    * The overuse of inheritance. (A class to represent things with legs.)
     * Composition over inheritance
     * Dependency injections
     * Decorators
     * Encourage review more examples:
-    * [Python Paterns](https://python-patterns.guide/)
+    * [Python Patterns](https://python-patterns.guide/)
     * [Design Patterns in Python](https://refactoring.guru/design-patterns/python)
 
 * Introduction to functional programming paradigm (1-2 hours)
