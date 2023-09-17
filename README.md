@@ -117,5 +117,65 @@ For big changes, the reviewer it is usually quite difficult to understand the ma
 
 A better approach might be pair-programming. Working together on the same computer at the same time.
 
+## Notes
+
+* Background not computer science
+* They might have done oop course and might use OOP but they might not know the architecture and the design patterns.
+* Not always ideal about run time performance.
+
+1. Better design of software
+2. Better performance
+
+* Functional programming
+
+* Problems with class design.
+* There is no "right way", but one way might be better than the other.
+* When to use module instead of class. singleton - explain
+
+
+## Plan for a 1 day course
+
+* 9:00-17:00 we have 6 hours of training + 1 hour lunch break + 4*15 break.
+
+### Goal:
+
+* How to create better designed software that has better perfomance and it is easier to maintain?
+
+### Topics
+
+* Quick overview about algorithmic complexity. Big O notation. (1 hour)
+    * Linear scan of data vs binary search in ordered data. (eg. git bisect)
+    * List vs. Dictionary. (hashing) (eg. counting words)
+    * Well designed lookup table in the memory. (e.g. [Counting Amino Acids](https://code-maven.com/slides/python/exercise-count-amino-acids))
+
+* Parallel programming (1-2 hours)
+    * Show [multiprocessing](https://code-maven.com/slides/python/multiprocess)
+
+* Shorten the feedback loop: (20-30 min)
+    * Clients
+    * QA
+    * CI with automated tests
+    * Code review
+    * Pair programming
+
+* Refactoring - the secret is writing automated tests. (1-2 hours)
+    * Show test coverage data of open source projects.
+    * Show how to write a simple test for simple code.
+    * Show how to write test for code that depends on randomization.
+
+* OOP design patterns (1-2 hours)
+    * General concept of design patterns as a way to talk about designs
+    * Singleton
+    * The overuse of inheritance. (A class to represent things with leggs.)
+    * Composition over inheritance
+    * Dependency injections
+    * Decorators
+    * Encourage review more examples:
+    * [Python Paterns](https://python-patterns.guide/)
+    * [Design Patterns in Python](https://refactoring.guru/design-patterns/python)
+
+* Introduction to functional programming paradigm (1-2 hours)
+    * range, map, filter, list comprehension, generator expression, lazy evaluation.
+    * Part of [these slides](https://code-maven.com/slides/python/functional)
 
 
