@@ -170,7 +170,7 @@ A better approach might be pair-programming. Working together on the same comput
     * Composition over inheritance
     * Dependency injections
     * Decorators
-    * Encourage review more examples:
+    * Encourage to review more design patterns.
     * [Python Patterns](https://python-patterns.guide/)
     * [Design Patterns in Python](https://refactoring.guru/design-patterns/python)
 
