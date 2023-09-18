@@ -139,7 +139,7 @@ A better approach might be pair-programming. Working together on the same comput
 
 ### Goal:
 
-* How to create better designed software that has better performance and it is easier to maintain?
+* How to create better designed software that has better performance and that is easier to maintain?
 
 ### Topics
 
@@ -151,17 +151,20 @@ A better approach might be pair-programming. Working together on the same comput
 * Parallel programming (1-2 hours)
     * Show [multiprocessing](https://code-maven.com/slides/python/multiprocess)
 
+* Clean code (20-30 min)
+    * DRY
+    * meaningful variable and function names
+    * short functions that do only one thing
+    * use good names instead of commenting
+
 * Shorten the feedback loop: (20-30 min)
-    * Clients
-    * QA
-    * CI with automated tests
     * Code review
     * Pair programming
 
 * Refactoring - the secret is writing automated tests. (1-2 hours)
     * Show test coverage data of open source projects.
     * Show how to write a simple test for simple code.
-    * Show how to write test for code that depends on randomization.
+    * Show how to write tests for code that depends on randomization such as the ML algorithms.
 
 * OOP design patterns (1-2 hours)
     * General concept of design patterns as a way to talk about designs
